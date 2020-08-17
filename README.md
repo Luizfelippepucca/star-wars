@@ -6,7 +6,7 @@ Primeira vez que faço algo consumindo uma Api,tenho muito a melhorar,mas estou 
 ### Projeto consumindo a Api https://swapi.dev/documentation .
 
 ### Funcionalidades
- -Responsivo
+ <li>Responsivo<li>
  -Campo de pesquisa com filtro para pesquisar o personagem pelo nome.
  -Botão "Ver Mais" para mostrar ou ocultar as outras informações referente a cada personagem.
 
