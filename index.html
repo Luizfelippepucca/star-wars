@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste BLUE 365</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    
+</head>
+<body onload="getDataApi()">
+    <h1 id="name">Api Star Wars</h1>
+    <div class="header-search">
+        <form>
+            <fieldset>
+                <div class="labelCont">
+                    <label>Pesquisar</label>
+                </div>
+                <div class="inputCont">
+                    <input type="text" placeholder="Digite o nome do personagem" id="pesquisar" maxlength="20" />
+                </div>
+            </fieldset>
+        </form>
+    </div> 
+    <section>
+        <main >
+            <div class="contCardStatus">
+                
+                <div class="cardStatus">
+                    <label >Personagens</label>
+                    
+                </div>
+            </div>  
+          <div id="card" class="card" > </div>
+          <footer>
+            <div class="descricao">
+                   <div class="titlefooter">-Descrição</div>
+                   <p>Projeto criado para teste de estágio e aprenzidado.</br>
+                      Projeto foi feito com um layout bem simples,focado </br>
+                      em mostrar as funcionalidades do site como barra de pesquisa e </br>
+                      botão de mostrar mais informações(que estão sendo consumidas da Api).<br>
+                      Que a força esteja com você.
+                    </p>
+            </div>
+            <div class="instrucao">
+                <div class="titlefooter">-Instrução</div>
+                   <p>Para fazer sua busca digite o nome de um dos personagens abaixo:</br>
+                    Luke Skywalker, C-3P0,R2-D2 <br>
+                    Darth Vader, Leia Organa, Owen Lars<br>
+                    Beru Whitesun lars, R5-D4,  Biggs Darklighter,  Obi-Wan Kenobi<br>
+                    A busca pode ser feita com letras maiusculas e minusculas<br> respeitando os espaços e caracteres.
+                   
+                   
+                   
+                   
+                   
+                    </p>
+                
+            </div>
+          </footer>
+        </main>
+    </section>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
